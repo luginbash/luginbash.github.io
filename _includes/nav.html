@@ -1,0 +1,19 @@
+      <nav>
+        <label for="show-menu" class="show-menu">Show Menu</label>
+        <input type="checkbox" id="show-menu" >
+        <ul>
+          {% if page.url == '/' %}<li class="active">{% else %}<li>{% endif %}
+            <a href="{{ "/" | prepend: site.baseurl }}">Home</a></li>
+          {% if page.url contains '/about/' %}<li class="active">
+            {% else %}<li>{% endif %}
+            <a href="{{ "/post/" | prepend: site.baseurl }}">Posts</a></li>
+          {% if page.url == '/get/' %}<li class="active">{% else %}<li>{% endif %}
+            <a href="{{ "/as/" | prepend: site.baseurl }}">Peering</a></li>
+          {% if page.url contains '/latex3/' %}<li class="active">
+            {% else %}<li>{% endif %}
+            <a href="{{ "/pki/" | prepend: site.baseurl }}">CA</a></li>
+          {% if page.url contains '/news/' %}<li class="active">
+            {% else %}<li>{% endif %}
+            <a href="{{ "/about/" | prepend: site.baseurl }}">About</a></li>
+        </ul>
+      </nav>

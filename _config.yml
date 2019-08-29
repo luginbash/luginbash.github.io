@@ -1,0 +1,15 @@
+# Site settings
+title: The LaTeX Project
+baseurl: ""
+url: "https://latex-project.org/"
+
+# Build settings
+markdown: kramdown
+# enable recognition of Github Flavored Markdown (GFM)
+# kramdown:
+#  input: GFM
+
+# Permalinks
+# http://jekyllrb.com/docs/permalinks/
+# permalink: date|pretty|ordinal|none
+permalink: pretty
