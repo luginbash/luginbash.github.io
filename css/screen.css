@@ -144,12 +144,24 @@
 @font-face {
   font-family: 'roboto_medium';
   src: url('../fonts/roboto_medium.woff')            format('woff');}
-
+@font-face {
+  font-family: 'iosevka_light'; 
+  src: url('../fonts/iosevka-light.woff2')          format('woff2');}
+@font-face{
+  font-family: 'iosevka';
+  src: url('../fonts/iosevka-regular.woff2')        format('woff2');}
+@font-face {
+  font-family: 'iosevka_italic';
+  src: url('../fonts/iosevka-italic.woff2')         format('woff2');}
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 html, header { 
-  background: url("../img/bg.png") repeat scroll 0% 0%, #F5F1E8 none repeat scroll 0% 0%;
+  background:
+  linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+  linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+  background-color:#708090;
+  background-size: 64px 128px;
   font-size: 100%; height: 100%; 
   line-height: 1.5; }
 .wrap {
@@ -163,12 +175,12 @@ html, header {
 –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
 body {
   color: #000;
-  font-family: 'roboto_light', sans-serif;
+  font-family: 'iosevka_light', sans-serif;
   font-size: 1em;
   font-weight: 400; }
 h1, h2, h3, h4, h5, h6 {
   color: #222;
-  font-family: 'roboto_regular', sans-serif;
+  font-family: 'iosevka_regular', sans-serif;
   font-weight: 300;
   letter-spacing: -.03em;
   line-height: 1;
@@ -183,7 +195,7 @@ h6 { font-size: 1.1em; }
 
 p { line-height: 1.4em; }
 
-strong, b, .bold, dt { font-family: 'roboto_regular', sans-serif; font-weight: normal;}
+strong, b, .bold, dt { font-family: 'iosevka_regular', sans-serif; font-weight: normal;}
 
 em, i, .italic { font-style: italic; letter-spacing: .03em; }
 
