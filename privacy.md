@@ -8,7 +8,7 @@ description: ""
 
 ## Scope
 
-This privacy statement explains to users the nature, extent and purpose, the collection and use of personal data by the responsible provider (The LaTeX Project, see contact page) on this website (referred to as "the offer" below).
+This privacy statement explains to users the nature, extent and purpose, the collection and use of personal data by the responsible provider (Web of Luginbash, see contact page) on this website (referred to as "the offer" below).
 
 The legal basis of data protection can be found in the Federal Data Protection Act (BDSG) and the Telemedia Act (TMG) of the Federal Republic of Germany and the General Data Protection Regulation (GDPR) of the European Union.
 
@@ -19,21 +19,20 @@ The collected access data includes the retrieved Web page name or file, the date
 The provider uses the data for statistical analysis, for the purpose of the operation, safety and optimization of the offer.
 However, the provider reserves the right to check the log data later if there is reasonable suspicion of unlawful use due to concrete indications.
 
-_The collected data is typically stored for about 2 weeks in the server logs._
-
+_The website is hosted on the github pages._
 
 ### Handling of personal data
 
 Personal information is information that will help to make a person identifiable, i.e., data that can be traced back to a person. This includes the name, email address or telephone number. However, other data such as preferences, memberships or which web pages were viewed by someone can count among personal data.
 
-_The LaTeX Project does not collect or store personal information (with the exception of IP addresses stored in server logs) unless you explicitly share such information with us by contacting us personally via email. In that case we store the data you shared with us in order to communicate with you._
+_We do not collect or store personal information (with the exception of IP addresses stored in server logs) unless you explicitly share such information with us by contacting us personally via email. In that case we store the data you shared with us in order to communicate with you._
 
 
 #### Comments and posts
 
 When users leave comments or other contributions, their IP addresses are stored. This is done for the safety of the provider, in case someone writes illegal content in comments and contributions (insults, banned political propaganda, etc.). In this case, the provider may be held responsible even for the comment or post and is therefore interested in the identity of the author.
 
-_At the current point in time the website of the LaTeX Project does not offer any comment or contribution possibilities other than contact by email. If we change this policy and offer possibilities for commentaries this section will be updated._
+_At the current point in time the website we do not offer any comment or contribution possibilities other than contact by email. If we change this policy and offer possibilities for commentaries this section will be updated._
 
 
 #### Integration of services and content of third parties
