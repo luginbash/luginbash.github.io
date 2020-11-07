@@ -12,7 +12,6 @@ We believe that participation in its community is the key to understand anything
 
 If you are interested, please peer with us on two different autonomous systems (AS Numbers):
 
-* ~~AS135646 - the internet presence of the Luginbash Network~~
 * AS4242423904 - the dn42 emulation of the Luginbash Network
 
 Due to cost issues, it's not possible to peer with AS135646 for now. If you are interested in peering on the dn42, please contact peering [at] lug [dot] sh.
@@ -20,14 +19,6 @@ Due to cost issues, it's not possible to peer with AS135646 for now. If you are 
 ## Peering policy
 
 *We have limited POPs at only a few affordable IXPs. Please review our presences on the [PeeringDB](https://www.peeringdb.com/net/15026). As our nature is an educational and research network, you may observe none IXP presence sometimes This means we might be running low on the budget at that time. We are obliged to maintain the information current.*
-
-The minimal set of requirements to peer with AS135646:
-
-* Listed in PeeringDB
-* At least one public routable /24 prefix
-* Do not point default at us
-* Up to date ASN, MNT, Route objects at RIR
-* Prefer MD5 authentication
 
 The minimal set of requirements to peer with AS4242423904:
 
