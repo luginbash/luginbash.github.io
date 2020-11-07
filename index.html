@@ -6,19 +6,10 @@ description: "The Web home of Luginbash Hiyajo"
 ---
 
 <div class="row">
-  <div class="col cell1of2">
+  <div class="col">
     <h1>Luginbash Hiyajo</h1>
     <p>Luginbash Hiyajo is a fictitious character from nowhere. Luginbash has attended the Unseen University at ankh-morpork during 2009-2013, received a bachelor's degree in the High Energy Magic Division. By ending of his bachelorship, he married to Maho Hiyajo and assumed her family name.</p>
-    <p>Under the influence of his waifu, luginbash pursuit a master's degree in the Civil Lore, which is the only and closest degree the Unseen University can provide to Brain Sciences.</p>
-  </div>
-  <div class="col cell1of2 news">
-    <h2>Recent Posts</h2>
-    <ul class="news-posts">
-      {% for post in site.posts offset: 0 limit: 3 %}
-      <li><span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-    <!-- <small><a href="{{ "/news/" | prepend: site.baseurl }}">All News</a> &middot; Subscribe to our <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="fa fa-rss-square"></span>RSS News Feed</a></small> -->
+    <p>Influenced by his waifu, luginbash pursuit a master's degree in the Civil Lore, which is the closest degree to Brain Sciences in the Unseen University</p>
   </div>
 </div>
 <hr>
@@ -26,24 +17,24 @@ description: "The Web home of Luginbash Hiyajo"
   <div class="col cell1of2">
     <h2>Netzwerk Luginbash</h2>
     <dl>
-      <dt><a href="{{ "/as/" | prepend: site.baseurl }}">Autonomous System</a></dt>
-      <dd>A small experimental autonomous system on the internet.</dd>
-      <dt><a href="{{ "/dn42/" | prepend: site.baseurl }}">Internet Simulation</a></dt>
-      <dd>We are also on the Dn42 - a big dynamic VPN that simulates the Internet.</dd>
-      <dt><a href="{{ "/pki/" | prepend: site.baseurl }}">Finis Chaldea Authority</a></dt>
-      <dd>Certification Authority is impossible to miss.</dd>
-      <dt><a href="{{ "/idp/" | prepend: site.baseurl }}">Identity Provider</a></dt>
-      <dd>A ID Provider based on FreeIPA, AD Trust, and also on the Cloud. Cloud presence made possible by Office 365.</dd>
+      <dt><a href="{{ "/as/" | prepend: site.baseurl }}">Internet Participation</a></dt>
+      <dd>The internet is fun!</dd>
+      <dt><a href="{{ "/as/" | prepend: site.baseurl }}">Internet Simulation</a></dt>
+      <dd>Dn42, the largest internet simulation on planet earth</dd>
+      <dt><a href="{{ "//pki.lug.sh" | prepend: site.baseurl }}">Finis Chaldea Authority</a></dt>
+      <dd>You always need a PKI root somewhere.</dd>
+      <dt><a href="{{ "//idp.lug.sh" | prepend: site.baseurl }}">Identity Provider</a></dt>
+      <dd>Another building block that can't be missed.</dd>
     </dl>
   </div>
   <div class="col cell1of2">
     <h2>Hobbies</h2>
     <dl>
-      <dt><a href="{{ "/ham/" | prepend: site.baseurl }}">HAM Radio</a></dt>
+      <dt><a href="{{ "/#/" | prepend: site.baseurl }}">HAM Radio</a></dt>
       <dd>Licensed, but please don't send us CW.</dd>
-      <dt><a href="{{ "/exercises/" | prepend: site.baseurl }}">Excercises</a></dt>
+      <dt><a href="{{ "/#/" | prepend: site.baseurl }}">Excercise Notes</a></dt>
       <dd>Mental, and physcial.</dd>
-      <dt><a href="{{ "/programs/" | prepend: site.baseurl }}">Programming</a></dt>
+      <dt><a href="{{ "//github.com/luginbash" | prepend: site.baseurl }}">Coding</a></dt>
       <dd>Everyone has some pet projects.</dd>
     </dl>
   </div>
